@@ -1,0 +1,32 @@
+=> Gymnastiques
+.Gym id
+.nom 
+.adress
+.num/telephone
+
+=> Membres
+.Members(Id)
+.nom
+.prenom
+.adress
+.date/naissance
+.sexe
+
+-seance(Id)
+.type/sport
+.heure
+.nbre/psn
+
+=> coach // coach est pris en tans qu'une entite pas un membres
+-caoch(Id)
+.nom
+.prenom
+.age.specialite
+
+
+relation.
+1 les membres peuvent s'enregistrer dans au tand de gym de son choix.
+2 chaque session est associe a une gym et un membre et un caoch ce qui rend l'entite faible.
+3 chaque membres doit respecter les heures si veulent prendre part a la seance.
+4 Tout les membre ne peuevnt pas participer au seance de tout les gym a cause du nombre de place sauf s'il attend la seance prochaine.
+3 chque caoch a un membre qu'il suit et une gym et faire la session a laquelle il/elle est assigné a l'heure designée.
